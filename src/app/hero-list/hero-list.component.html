@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 vpadding" *ngFor="let hero of Heros">
+            <img [src]="hero.avatar" alt="">
+            <p>{{hero.id+'-'+hero.name}}</p>
+            <p>{{hero.description}}</p>
+            <p>{{hero.type}}</p>
+            <hr/>
+        </div>
+    </div>
+</div>

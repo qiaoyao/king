@@ -1,0 +1,19 @@
+.nav {
+    padding: 0 15px;
+    background-color: #f6f6f6;
+    li {
+        float: left;
+        padding: 15px;
+        span {
+            color: #666;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 6px 10px;
+            cursor: pointer;
+            &:hover {
+                color: #333;
+                background-color: #f2f2f2;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.clearfix {
+    zoom: 1;
+    &:after {
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+.vpadding {
+    padding: 15px 0;
+}
